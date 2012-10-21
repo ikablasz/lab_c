@@ -5,9 +5,10 @@ Zadania z laboratorium w C
 
 
 ```c
-    int main() {
-    	printf("hello word\n);
+int main() 
+{
+  printf("hello word\n);
 	
-	return 0;
+  return 0;
 }
 ```
