@@ -3,4 +3,11 @@ Laborki z C
 
 Zadania z laboratorium w C
 
-    int main() {}
+
+'''c
+    int main() {
+    	printf("hello word\n);
+	
+	return 0;
+}
+'''
