@@ -4,7 +4,7 @@ using namespace std;
 
 int main() 
 {
-  cout << "kkk" << endl;
+  cout << "pierwszy program w c++" << endl;
 	
   return 0;
 }
