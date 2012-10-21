@@ -4,10 +4,10 @@ Laborki z C
 Zadania z laboratorium w C
 
 
-'''c
+```c
     int main() {
     	printf("hello word\n);
 	
 	return 0;
 }
-'''
+```
