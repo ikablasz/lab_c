@@ -18,7 +18,7 @@ int main()
 
   if (a!=0)
     {
-      odw=-(a);
+      odw=1/(a);
       printf("odwrotnosc tej liczby to: %2.2lf\n",odw);
     }
   else
