@@ -11,7 +11,7 @@ int main()
   if (a >= 0)
     {
       b=a*a;
-      printf("%2.1f,%char,%2.1f\n",a,"^2=",b);
+      printf("Kwadrat z tej liczby to:%2.1f\n",b);
     }
   else 
     printf("Podales ujemna liczbe\n");
