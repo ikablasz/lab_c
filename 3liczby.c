@@ -11,9 +11,7 @@ int main()
   int a,b,c;
 
   printf("Wprowadz 3 liczby po kazdej wciskajac Enter\n");
-  scanf("%i",&a);
-  scanf("%i",&b);
-  scanf("%i",&c);
+  scanf("%i %i %i",&a, &b, &c);
 
   printf("Suma tych liczb wynosi: %i\n",suma(a,b,c));
   printf("Iloczyn tych liczb to: %i\n",iloczyn(a,b,c));
