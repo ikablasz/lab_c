@@ -1,15 +1,12 @@
-// petle zadanie 1 
-
 #include <stdio.h>
-
 int main() {
-  int x = 2;
-  
-  printf("kolejne potegi liczby 2 nie przekraczajace 2010:\n");
-  printf("%d", 1);
-  while (x <= 2010) {
-    printf(", %d",x);
-    x *=2;
+  int y, x=1, wynik = 0;
+  while (x<=10) {
+    y = x*x;
+    printf("%d\n", y);
+    wynik += y;
+    ++x;
   }
-  printf("\n");
+  printf("wynik = %d\n", wynik);
+  return 0;
 }
