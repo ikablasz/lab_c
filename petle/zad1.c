@@ -1,4 +1,4 @@
-// zadanie 1 Petle
+// zadanie 0 Petle
 // Kompilacja cc -g -Wall -std=gnu99 zad1.c -o zad1 -lm
 
 
