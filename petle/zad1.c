@@ -1,3 +1,5 @@
+// zadanie 1 Petle
+
 #include <stdio.h>
 int main() {
   int y, x=1, wynik = 0;
