@@ -1,4 +1,4 @@
-//zadanie 6
+//zadanie 7
 #include <stdio.h>
 
 int main()
