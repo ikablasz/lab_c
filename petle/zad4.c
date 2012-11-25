@@ -1,8 +1,7 @@
 // zadanie 4 
 #include <stdio.h>
 
-int main()
-{
+int main(){
   int a,n,b=0;
 
   printf("podaj jakas liczbe\n");
