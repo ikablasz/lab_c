@@ -1,13 +1,11 @@
 //zadanie 7
 #include <stdio.h>
 
-int main()
-{
+int main(){
   double tab[6];
   int i;
 
-  for(i=0;i<6;i++)
-    {
+  for(i=0;i<6;i++){
       printf("Podaj %d. liczbę\n",i+1);
       scanf("%lf",&tab[i]);
     }
