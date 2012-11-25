@@ -1,4 +1,5 @@
-//zadanie 6
+//zadanie 1 Oblicza przeciwprostokątną 
+
 #include <stdio.h>
 #include <math.h>
 

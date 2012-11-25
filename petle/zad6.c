@@ -1,13 +1,11 @@
 //zadanie 6
 #include <stdio.h>
 
-int main()
-{
+int main(){
   double tab[6],min,max;
   int i;
 
-  for(i=0;i<6;i++)
-    {
+  for(i=0;i<6;i++){
       printf("Podaj %d. liczbę\n",i+1);
       scanf("%lf",&tab[i]);
     }
@@ -15,14 +13,11 @@ int main()
   min=tab[0];
   max=tab[0];
 
-  for(i=1;i<6;i++)
-    {
-      if(max<tab[i])
-	{
+  for(i=1;i<6;i++){
+      if(max<tab[i]){
 	  max=tab[i];
 	}
-      if(min>tab[i])
-	{
+      if(min>tab[i]){
 	  min=tab[i];
 	}
     }

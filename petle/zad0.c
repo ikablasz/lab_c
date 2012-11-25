@@ -1,3 +1,4 @@
+// zadanie 0
 #include <stdio.h>
 int main() {
   int y, x=1, wynik = 0;
