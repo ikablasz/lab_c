@@ -2,8 +2,7 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main(){
   int a,b;
 
   printf("podaj pierwsza liczbe\n");
@@ -11,16 +10,13 @@ int main()
   printf("podaj druga liczbe\n");
   scanf("%d",&b);
 
-  if(a<b)
-    {
-      for(a=a;a<=b;a++)
-	{
+  if(a<b){
+      for(a=a;a<=b;a++){
 	  printf("%d ",a);
 	}
       printf("\n");
     }
-  else
-    {
+  else{
       printf("Podałeś zły zakres!\n");
     }
 }
