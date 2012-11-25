@@ -12,5 +12,4 @@ int main(){
   if (tab[i] > 0){
     printf("Liczba dodatnich liczb w tablicy to: %lf",tab[i]);
   }
-  
 }
