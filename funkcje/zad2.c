@@ -1,21 +1,26 @@
+//Zadanie 2  - program oblicza silnie z podanej liczby
 #include <stdio.h>
-#include <math.h>
 
-int silnia(int a){
-  int b,c=1;
+int silnia(int n){
 
-  for(a=1;a<b;a++){
-    c*=a;
-  }
-  return c;
+  int i,wynik=1;
+
+  if(n==0){
+      return 1;
+    }
+  else{
+      for(i=1;i<n+1;i++){
+	  wynik*=i;
+	}
+      return wynik;
+    }
 }
 
-int main()
-{
-  int b;
+int main(){
+  int n,wynik;
 
-  printf("podaj jakas liczbe");
-  scanf("%d",&b);
-  
-  printf("silnia wynosi :%d\n",silnia(a)); 
+  printf("podaj liczbę\n");
+  scanf("%d",&n);
+  wynik=silnia(n);
+  printf("%d!= %d\n",n,wynik);
 }
