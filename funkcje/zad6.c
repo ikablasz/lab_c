@@ -37,8 +37,8 @@ void mainMenu()
   while(wyjscie!=5)
     {
       printf("\n");
-      a=rnd(1,100);
-      b=rnd(1,100);
+      a=rnd(1,10);
+      b=rnd(1,10);
       printf("Ile to jest %d * %d ?\n",a,b);
       scanf("%d",&wynik);
 
@@ -65,5 +65,3 @@ int main()
 {
   mainMenu();
 }
-
-
