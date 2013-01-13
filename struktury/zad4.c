@@ -16,8 +16,8 @@ struct rect{
 struct point makepoint(int x, int y)
 {
   struct point tmp;
-  tmp.x=x;
-  tmp.y=y;
+     tmp.x=x;
+     tmp.y=y;
   return tmp;
 };
 
