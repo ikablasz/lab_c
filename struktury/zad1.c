@@ -7,7 +7,7 @@ struct point {
 
 struct rect{
   struct point ll; //lower left
-  struct point ur; //lower right
+  struct point ur; //upper right
 };
 
 struct point makepoint(int x, int y){
