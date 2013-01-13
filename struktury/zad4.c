@@ -46,7 +46,7 @@ int area(struct rect r1,struct rect r2){
 
   if(disjointrect(r1,r2)==0)
     {
-      area2=abs(r2.ur.x-r1.ll.x) * abs(r2.ll.y-r1.ur.y);
+      area2=abs(r2.ur.x-r1.ll.x) * abs(r2.ll.y-r1.ur.y);//czesc wspólna
       area-=area2;
     }
 
@@ -55,5 +55,14 @@ int area(struct rect r1,struct rect r2){
 
 int main(){
 
+  struct rect test1, test2;
+
+  test1.ll=makepoint(0,0);
+  test1.ur=makepoint(9,9);
+
+  test2.ll=makepoint(9,9);
+  test2.ur=makepoint(-10,-21);
+
+  printf("Pole: %d\n",area(test1,test2) );
 
 }
