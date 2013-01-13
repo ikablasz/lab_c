@@ -8,8 +8,7 @@ struct point {
   int y;
 };
 
-struct rect
-{
+struct rect{
   struct point ll; //lower left
   struct point ur; //upper right
 };
@@ -40,11 +39,19 @@ int rectinrect(struct rect r1, struct rect r2){
     return 0;
 }
 
-int area(struct rect r1,struct rect r2)
-{
+int area(struct rect r1,struct rect r2){
   int area=0,area2=0;
 
-  area=( abs(r1.ur.x-r1.ll.x)
+  area=( abs(r1.ur.x-r1.ll.x) * abs(r1.ur.y-r1.ll.y) ) + ( abs(r2.ur.x-r2.ll.x) * abs(r2.ur.y-r2.ll.y) );
+
+  if(disjointrect(r1,r2)==0)
+    {
+      area2=abs(r2.ur.x-r1.ll.x) * abs(r2.ll.y-r1.ur.y);
+      area-=area2;
+    }
+
+  return area;
+}
 
 int main(){
 
